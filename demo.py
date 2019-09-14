@@ -36,7 +36,7 @@ def main(yolo):
 
     writeVideo_flag = True
 
-    video_capture = cv2.VideoCapture(0)
+    video_capture = cv2.VideoCapture(sys.argv[1])
 
     if writeVideo_flag:
     # Define the codec and create VideoWriter object
